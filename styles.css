@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    padding:0;
+    /* border: 2px solid black; */
+    margin:50px 100px 50px 100px;
+}
+
+.heading{
+    font-size: 50px;
+    color: rgb(198, 198, 66);
+}
+
+.heading, .recipes-list{
+    text-align: center;   
+}
+
+.recipes-list{
+    list-style: square;
+    display: flex;
+    justify-content: space-around;
+}
+
+.recipes-list a{
+    text-decoration: none;
+    color:rgb(43, 28, 103);
+    font-size: 18px;
+}
+
+.recipes-list a:hover{
+    text-decoration: underline;
+    color:rgba(118, 35, 35, 0.605);
+}
+
+/* Cake.html (Recipe-one) */
+.home{
+ color: brown;
+ font-size: 25px;
+ text-decoration: none;
+ background-color: rgb(253, 240, 217);
+ padding: 2px 10px;
+ border-radius: 1px;
+}
+
+.home:hover{
+    color:black;
+}
+
+.nav-recipe-list{
+    display: flex;
+    list-style: none;
+}
+.back{
+    margin-right:70px;
+}
+.back, .next{
+    color: rgb(131, 71, 71);
+    font-size: 20px;
+   
+}
+
+.recipe-heading{
+    color: brown;
+}
+
+.recipe-one-img{
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.step-one-img{
+    margin:8px 0;
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.desc-one, .ing-one,.steps-one{
+    color: rgb(131, 71, 71);
+    text-decoration: underline;
+}
+
+.ing-list{
+    list-style: square;
+}
+.step-two{
+    margin:8px 0;
+}
+.steps-list li{
+ margin-top: 5px;
+}
+
